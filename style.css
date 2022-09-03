@@ -17,6 +17,12 @@
     src: url(SourceCodeVariable-Roman.otf);
 }
 
+
+@font-face {
+    font-family: 'X';
+    src: url(XHARPDemoRegular.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -865,4 +871,19 @@ p i {
 
 p {
     word-break: break-word;
+}
+
+.footer-wrapper {
+    font-family: 'spiky-2';
+    font-size: 14px;
+}
+
+.mage-buy {
+
+    font-size: 12px;
+}
+
+.kooh {
+    color: var(--c3);
+    cursor: pointer;
 }
